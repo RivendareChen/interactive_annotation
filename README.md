@@ -1,4 +1,4 @@
-# interactive_annotation
+# Efficient Interactive Annotation of Segmentation Datasets
 **Reimplementation of** *Efficient Interactive Annotation of Segmentation Datasets with Polygon-RNN++.*  
 **This repository contains two main programs:**  
 + Reproduction of the entire paper  
@@ -32,7 +32,10 @@ Testing effect(use RNN or RNN+GGNN):
 Overall effect:  
 ![ex2](readme/overall_effect.png)
 Performance:
-![ex2](readme/performance.png)
+![ex2](readme/performance.png)  
+
+Feature Extractor   
+-----
 
 Autograph   
 -----
