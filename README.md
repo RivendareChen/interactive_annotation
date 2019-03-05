@@ -24,11 +24,16 @@ Reproduction of the entire paper
 
 **output**  
 test case:  
-Reduced subimages to match 224*224 rgb:  
+![ex2](readme/test_case.png)  
+Reduced subimages to match 224*224 rgb:   
+![ex2](readme/subimage.png)  
 Testing effect(use RNN or RNN+GGNN):  
+![ex2](readme/sub_effect.png)  
 Overall effect:  
-performance:
-
+![ex2](readme/overall_effect.png)
+Performance:
+![ex2](readme/performance.png)
 
 Autograph   
 -----
+![ex2](readme/logo.png)
