@@ -172,7 +172,7 @@ def build_model(input_shape = (3, 224, 224) , block_fn = bottleneck, repetitions
 
     return model
 
-def main(input_path="input/traffic_2.png"):
+def main(input_path="input/traffic_3.png"):
     resnet50 = build_model()
     resnet50.summary()
     img = []
