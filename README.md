@@ -38,16 +38,17 @@ Feature Extractor
 -----
 **This part of the program mainly uses Keras.** 
 
-**Main Idea:**
+**Main Idea:**    
+<img src="readme/idea.png" width="350" />  
 + Build a CNN model  without pooling or FC layers.   
 >We also remove the original average pooling and FC layers  
 + Construct a ResNet-50 layer model based on reference[13] and reference[7]  
 >we follow [7] and modify the ResNet-50 architecture [13] by reducing the stride of the network and introducing dilation factors.  
 >  
 DeepLab    
-<img src="readme/ref7.png" width="224" />  
+<img src="readme/ref7.png" width="350" />  
 Batch Normalization  
-<img src="readme/ref13.png" width="224" />  
+<img src="readme/ref13.png" width="350" />  
 
 **Additional Dependencies:**    
 + six==1.12.0    
