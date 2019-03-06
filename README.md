@@ -24,18 +24,45 @@ Reproduction of the entire paper
 
 **output**  
 test case:  
-![ex2](readme/test_case.png)  
+<img src="readme/test_case.png" width="224" />   
 Reduced subimages to match 224*224 rgb:   
-![ex2](readme/subimage.png)  
-Testing effect(use RNN or RNN+GGNN):  
-![ex2](readme/sub_effect.png)  
+<img src="readme/subimage.png" width="224" />   
+Testing effect(use RNN or RNN+GGNN):   
+<img src="readme/sub_effect.png" width="350" />  
 Overall effect:  
-![ex2](readme/overall_effect.png)
-Performance:
-![ex2](readme/performance.png)  
-
+<img src="readme/overall_effect.png" width="350" />   
+Performance:  
+<img src="readme/performance.png" width="450" />  
+  
 Feature Extractor   
 -----
+**This part of the program mainly uses Keras.** 
+
+**Main Idea:**
++ Build a CNN model  without pooling or FC layers.   
+>We also remove the original average pooling and FC layers  
++ Construct a ResNet-50 layer model based on reference[13] and reference[7]  
+>we follow [7] and modify the ResNet-50 architecture [13] by reducing the stride of the network and introducing dilation factors.  
+DeepLab    
+<img src="readme/ref7.png" width="224" />
+Batch Normalization  
+<img src="readme/ref13.png" width="224" />  
+
+**Additional Dependencies:**    
++ six==1.12.0    
++ Keras==2.2.2  
+
+**Usage:**  
+Just run extractor_main.py, the result will be presented to you in a Dialog.  
+
+**Output**  
+test case:  
+<img src="input/traffic_3.png" width="224" />    
+effect:  
+<img src="readme/extractor_output.png" width="224" />  
+
+
+
 
 Autograph   
 -----
