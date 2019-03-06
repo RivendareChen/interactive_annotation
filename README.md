@@ -17,13 +17,13 @@ Reproduction of the entire paper
 + tqdm==4.19.9 
 
 **usage:**
-1. Dowload the trained model from //www.cs.toronto.edu/polyrnn/models/$FILENAME .  
+1. Dowload the trained model from www.cs.toronto.edu/polyrnn/models/$FILENAME .  
 2. Unzip it and put the subfolder in the empty mates，at this step you may change their name to match paths in code.  
 3. Run the rnn_main.py,that will take some time.  
 4. View the output JSON files and tagged images in the output folder.
 
 **output**  
-test case:  
+Test case:  
 <img src="readme/test_case.png" width="224" />   
 Reduced subimages to match 224*224 rgb:   
 <img src="readme/subimage.png" width="224" />   
@@ -43,8 +43,9 @@ Feature Extractor
 >We also remove the original average pooling and FC layers  
 + Construct a ResNet-50 layer model based on reference[13] and reference[7]  
 >we follow [7] and modify the ResNet-50 architecture [13] by reducing the stride of the network and introducing dilation factors.  
+>  
 DeepLab    
-<img src="readme/ref7.png" width="224" />
+<img src="readme/ref7.png" width="224" />  
 Batch Normalization  
 <img src="readme/ref13.png" width="224" />  
 
