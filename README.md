@@ -62,10 +62,3 @@ test case:
 <img src="input/traffic_3.png" width="224" />    
 effect:  
 <img src="readme/extractor_output.png" width="224" />  
-
-
-
-
-Autograph   
------
-![ex2](readme/logo.png)
